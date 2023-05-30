@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    module: {
+        rules: [
+            {
+                test: /\.json$/,
+                use: "json-loader",
+            },
+        ],
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
