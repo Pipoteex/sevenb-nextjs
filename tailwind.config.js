@@ -7,9 +7,9 @@ module.exports = {
     ],
     theme: {
         extend: {
-            /* backgroundImage: {
+            backgroundImage: {
                 layer1: 'url("/images/layer1.svg")',
-            }, */
+            },
         },
     },
     plugins: [],

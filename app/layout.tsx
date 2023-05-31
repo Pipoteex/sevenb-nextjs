@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter, Roboto } from 'next/font/google'
+import { Inter, Roboto, Roboto_Mono } from 'next/font/google'
 
-const roboto = Roboto({ subsets: ['latin'], weight: "300" })
+const roboto = Roboto_Mono({ subsets: ['latin'], weight: "500" })
 
 export const metadata = {
     title: 'SEVEN B SRL',
