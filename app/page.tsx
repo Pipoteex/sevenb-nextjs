@@ -1,12 +1,23 @@
+"use client"
+
 import { About } from '@/components/About'
 import { Welcome } from '@/components/Welcome'
-import Image from 'next/image'
-
+import { motion } from 'framer-motion'
 export default function Home() {
     return (
-        <>
+        <motion.div
+            initial={{
+                opacity: 0
+            }}
+            animate={{
+                opacity: 1,
+                transition: {
+                    duration: 0.5,
+                }
+            }}
+        >
             <Welcome />
             <About />
-        </>
+        </motion.div>
     )
 }
