@@ -53,7 +53,7 @@ export const Services = () => {
                 <div className='grid grid-cols-1 md:grid-cols-3'>
                     <div className='flex justify-center' >
 
-                        <motion.div whileHover={{ scale: 1.04 }}
+                        <motion.div whileHover={{ scale: 1 }}
                             onHoverStart={e => setflag({ ...flag, flag1: false })}
                             onHoverEnd={e => setflag({ ...flag, flag1: true })}
                             className='w-[70%] max-w-[400px] sm:w-[60%] md:w-[80%]'
@@ -86,7 +86,7 @@ export const Services = () => {
                     </div>
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2'>
+                <div className='grid grid-cols-1 md:grid-cols-2 md:mt-[5%]'>
                     <div className='flex justify-center'>
 
                         <motion.div whileHover={{ scale: 1.04 }}
