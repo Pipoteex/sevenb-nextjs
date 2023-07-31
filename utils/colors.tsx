@@ -1,5 +1,7 @@
 export const colors = {
-    first: "#000036",
-    second: "#00227d",
-    third: "#003fff"
+    first: "#222539",
+    second: "#FFFFFF",
+    third: "#2FB087",
+    four: "bg-gradient-to-bl from-stone-700 via-stone-800 to-green-700"
+
 } 
